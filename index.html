@@ -8,12 +8,17 @@
      <link rel="preconnect" href="https://fonts.googleapis.com">
      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
      <link href="https://fonts.googleapis.com/css2?family=Lato&family=Nunito:wght@200;300;400;500;700;800&display=swap" rel="stylesheet">
+     
+     <script src="https://kit.fontawesome.com/4f86e6075f.js" crossorigin="anonymous"></script>
+     
     </head>
     <body>
         <section class="header">
             <nav class="stroke">
                 <a href="index.html"><img class="logo" src="images/logo1.png"></a>
-                <div class="nav-links">
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    
                     <ul>
                         <li><a href="">Home</a></li>
                         <li><a href="">About</a></li>
@@ -21,6 +26,7 @@
                         <li><a href="">Contact</a></li>
                     </ul>
                 </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
             </nav>
 
             <div class="text-box">
@@ -32,6 +38,24 @@
             
         </div>
         </section>
+        <h1>Tours we offer</h1>
+        <p>Lorem ipsumia tähän vain</p>
+        <!--- Tours ---->
+    <section>
+
+    </section>
+    <!---JavaScript-->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+
+             function showMenu(){
+             navLinks.style.right = "0";
+            }
+
+            function hideMenu(){
+            navLinks.style.right = "-200px";
+            }
+        </script>
 
     </body>
 </html>
