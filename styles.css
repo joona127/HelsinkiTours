@@ -270,6 +270,36 @@ nav.fill ul li a {
     }
 }
 
+/*------ why to choose us- section -----*/
+
+.why-us{
+    width: 95%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.why-us-col img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.why-us-col {
+    flex-basis: 30%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+
+.why-us-col p{
+    padding: 0;
+}
+
+.why-us-col h3{
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: left;
+}
 
   
 
