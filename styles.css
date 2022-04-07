@@ -21,6 +21,20 @@
     
 }
 
+p{
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+h4{
+    color: #777;
+    font-size: 19px;
+    margin-top: 10px;
+}
+
 nav{
     display: flex;
     padding: 2% 6%;
@@ -299,6 +313,7 @@ nav.fill ul li a {
     margin-top: 16px;
     margin-bottom: 15px;
     text-align: left;
+    
 }
 
   
